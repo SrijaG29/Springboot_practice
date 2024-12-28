@@ -1,0 +1,26 @@
+Postmethod:-
+http://localhost:8080/create-books
+
+Data:-
+[
+    { "id": 1, "bookName": "The Catcher in the Rye", "author": "J.D. Salinger" },
+    { "id": 2, "bookName": "To Kill a Mockingbird", "author": "Harper Lee" },
+    { "id": 3, "bookName": "1984", "author": "George Orwell" },
+    { "id": 4, "bookName": "Pride and Prejudice", "author": "Jane Austen" },
+    { "id": 5, "bookName": "The Great Gatsby", "author": "F. Scott Fitzgerald" },
+    { "id": 6, "bookName": "Moby-Dick", "author": "Herman Melville" },
+    { "id": 7, "bookName": "War and Peace", "author": "Leo Tolstoy" },
+    { "id": 8, "bookName": "Crime and Punishment", "author": "Fyodor Dostoevsky" },
+    { "id": 9, "bookName": "The Odyssey", "author": "Homer" },
+    { "id": 10, "bookName": "Jane Eyre", "author": "Charlotte Bronte" },
+    { "id": 11, "bookName": "Wuthering Heights", "author": "Emily Bronte" },
+    { "id": 12, "bookName": "The Divine Comedy", "author": "Dante Alighieri" },
+    { "id": 13, "bookName": "The Hobbit", "author": "J.R.R. Tolkien" },
+    { "id": 14, "bookName": "The Lord of the Rings", "author": "J.R.R. Tolkien" },
+    { "id": 15, "bookName": "Harry Potter and the Sorcerer's Stone", "author": "J.K. Rowling" },
+    { "id": 16, "bookName": "A Tale of Two Cities", "author": "Charles Dickens" },
+    { "id": 17, "bookName": "The Alchemist", "author": "Paulo Coelho" },
+    { "id": 18, "bookName": "Brave New World", "author": "Aldous Huxley" },
+    { "id": 19, "bookName": "The Grapes of Wrath", "author": "John Steinbeck" },
+    { "id": 20, "bookName": "Great Expectations", "author": "Charles Dickens" }
+]
