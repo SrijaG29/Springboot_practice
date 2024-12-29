@@ -12,4 +12,3 @@ Q2:- PaginationAndSorting for efficent database Querying (Use Jpa-pagination)
 Q3:- Creating a profile which takes name and profile photo (Use Upload-Image)
   1. MultipartFile by default accepts only 1 mb file search how to make it accepts more than 1mb file
   2. Create a post method which takes name and profile photo and a service to save then in database.
-  3. Create an exception to handle images with size more than mentioned size.
