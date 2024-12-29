@@ -15,7 +15,7 @@ public class SchoolController {
     public SchoolController(SchoolRepository schoolRepository) {
         this.schoolRepository = schoolRepository;
     }
-
+//    Post mapping
     @PostMapping("/schools")
     public School create(
             @RequestBody School school
