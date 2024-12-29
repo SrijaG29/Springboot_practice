@@ -31,11 +31,18 @@ public class EmployeeController {
     public EmployeeEntity employeeId(
            @PathVariable String name
     ){
+        employeeEntity = employeeRespository.findByName(name);
         try{
-            return  employeeRespository.findByName(name);
+            employeeEntity.getName();
+            return employeeEntity;
         } catch (Exception e) {
-            throw new EmployeeNotFoundException(name + "Employee not found");
+            throw new EmployeeNotFoundException(name + " Employee not found");
         }
+//        EmployeeEntity employeeEntity = employeeRespository.findByName(name);
+//        if (employeeEntity == null) {
+//            throw new EmployeeNotFoundException(name + " Employee not found");
+//        }
+//        return employeeEntity;
 
     }
 }
