@@ -22,7 +22,6 @@ public class SchoolController {
     ){
         return schoolRepository.save(school);
     }
-
     @GetMapping("/schools")
     public List<School> findall(){
         return schoolRepository.findAll();
