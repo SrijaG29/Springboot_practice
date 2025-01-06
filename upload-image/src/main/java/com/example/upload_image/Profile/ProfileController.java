@@ -15,10 +15,18 @@ public class ProfileController {
     @Autowired
     private ProfileRepository profileRepository;
 
+    @PostMapping("/user/{name}")
+    public String userDetailsinput(
+            @RequestParam("name") String name
+            ,@RequestParam("image") MultipartFile file) throws IOException{
+        return profileService.uploadProfile(name,file);
+    }
+
     @GetMapping("/user/{name}")
     public ProfileEntity userDetails(
             @PathVariable String name
     ){
         return profileRepository.findByName(name);
     }
+
 }

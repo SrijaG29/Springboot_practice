@@ -12,5 +12,11 @@ public class ProfileService {
     @Autowired
     private ProfileRepository profileRepository;
 
-
+    public String uploadProfile(String name, MultipartFile file) throws IOException{
+        ProfileEntity profileEntity = new ProfileEntity();
+        profileEntity.setName(name);
+        profileEntity.setProfilePhoto(file.getBytes());
+        profileRepository.save(profileEntity);
+        return "Profile Created";
+    }
 }
